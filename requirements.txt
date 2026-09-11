@@ -1,0 +1,22 @@
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0
+PyYAML>=6.0.1
+click>=8.1.7
+
+# PDF & URL parsing
+PyMuPDF>=1.23.0
+readability-lxml>=0.8.1
+
+# AI / Embeddings
+groq>=0.4.0
+sentence-transformers>=2.7.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+
+# UI
+streamlit>=1.33.0
+
+# Utilities
+python-frontmatter>=1.1.0
+filelock>=3.13.0

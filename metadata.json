@@ -1,0 +1,6 @@
+{
+  "name": "SecondSelf",
+  "description": "Personal AI Knowledge Base with PARA Classification, Semantic Linking, Interactive Brain Graph, and Groq-powered RAG Oracle.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

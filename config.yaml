@@ -1,0 +1,35 @@
+llm:
+  provider: groq
+  model: openai/gpt-oss-120b
+  fallback_model: openai/gpt-oss-20b
+  temperature: 0.2
+  max_tokens: 512
+
+embeddings:
+  model: sentence-transformers/all-MiniLM-L6-v2
+  dimensions: 384
+  max_content_chars: 8000
+
+linking:
+  similarity_threshold: 0.75
+  strong_link_threshold: 0.85
+  max_links_per_note: 3
+
+retrieval:
+  top_k: 5
+  min_similarity: 0.50
+
+graph:
+  max_display_nodes: 100
+  node_colors:
+    Projects: "#6C63FF"
+    Areas: "#F9A825"
+    Resources: "#26C6DA"
+    Archives: "#78909C"
+  default_edge_color: "#AAAAAA"
+
+capture:
+  max_content_chars: 8000
+  min_content_chars: 10
+  allowed_file_extensions: [.pdf, .txt, .md, .png, .jpg, .jpeg]
+  max_file_size_mb: 10
