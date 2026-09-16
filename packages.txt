@@ -1,2 +1,6 @@
 libxml2-dev
 libxslt1-dev
+libjpeg-dev
+zlib1g-dev
+libpng-dev
+libfreetype6-dev

@@ -19,6 +19,7 @@ numpy>=1.24.0
 
 # UI
 streamlit==1.39.0
+Pillow>=10.0.0
 
 # Utilities
 python-frontmatter==1.1.0
