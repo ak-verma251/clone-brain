@@ -15,6 +15,9 @@ from build_graph import build_graph, export_graph
 from ask import ask
 from components.graph_component import build_vis_html
 
+# ── MUST be the very first Streamlit call ─────────────────────────────────────
+st.set_page_config(page_title="SecondSelf — Personal AI Brain", page_icon="🧠", layout="wide")
+
 # ── Startup: API key guard ────────────────────────────────────────────────────
 # Reads from environment variable (local .env) or Streamlit Cloud Secrets.
 GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
@@ -29,16 +32,11 @@ if not GROQ_API_KEY:
 
 
 # ── Cached model loader (avoids re-downloading ~90 MB on every session) ───────
-@st.cache_resource(show_spinner="Loading AI models...")
-def load_embedding_model():
-    """Load and cache the SentenceTransformer embedding model."""
-    from sentence_transformers import SentenceTransformer
-    return SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+# NOTE: Using built-in generate_semantic_vector() in link.py instead of
+# sentence-transformers to avoid heavy PyTorch dependency on Streamlit Cloud.
 
 ensure_dirs()
 config = load_config()
-
-st.set_page_config(page_title="SecondSelf — Personal AI Brain", page_icon="🧠", layout="wide")
 
 # Ensure graph exists
 graph_path = Path("graph.json")
