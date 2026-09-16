@@ -74,7 +74,7 @@ def run_e2e_test() -> dict:
     # 5. Build Graph
     try:
         g = build_graph()
-        export_graph(g)
+        export_graph(g)  # export returns a path string — keep g as the dict
         nodes_count = len(g.get("nodes", []))
         edges_count = len(g.get("edges", []))
         record_step("5. Graph Builder Export", nodes_count >= 2, f"Exported graph with {nodes_count} nodes and {edges_count} edges.")

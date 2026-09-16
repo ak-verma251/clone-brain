@@ -6,10 +6,7 @@ source: initial_seed
 category: Resources
 tags: null
 summary: Sentence Transformers & MiniLM Vector Spaces
-links:
-  - id: 73bee3dd-efe3-4c8c-a125-8b05869ecf35
-    score: 0.803
-    type: weak
+links: []
 embedding_file: embeddings/6a5e3dcd-b7dc-4bc7-a3dc-f8c0fa8c2ea3.npy
 ---
 
