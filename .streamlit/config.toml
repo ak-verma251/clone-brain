@@ -1,0 +1,18 @@
+# .streamlit/config.toml
+# Optimised for Streamlit Community Cloud deployment
+
+[server]
+headless = true
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"
+primaryColor = "#6C63FF"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1A1D27"
+textColor = "#FAFAFA"
+font = "sans serif"

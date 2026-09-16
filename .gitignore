@@ -1,12 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+.venv-deploy/
+
+# Environment — NEVER commit secrets
+.env*
+!.env.example
+.streamlit/secrets.toml
+
+# Node.js / Vite frontend (not part of Streamlit deployment)
 node_modules/
 build/
 dist/
 coverage/
+bun.lock
+package-lock.json
+
+# OS
 .DS_Store
 *.log
-.env*
-!.env.example
-__pycache__/
-*.pyc
-*.pyo
-.streamlit/secrets.toml

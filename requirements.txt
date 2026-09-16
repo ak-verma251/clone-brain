@@ -1,22 +1,25 @@
+# requirements.txt — PINNED for Streamlit Community Cloud
+# Generated: 2026-09-16
+
 # Core
-requests>=2.31.0
-python-dotenv>=1.0.0
-PyYAML>=6.0.1
-click>=8.1.7
+requests==2.32.3
+python-dotenv==1.0.1
+PyYAML==6.0.2
+click==8.1.7
 
 # PDF & URL parsing
-PyMuPDF>=1.23.0
-readability-lxml>=0.8.1
+PyMuPDF==1.24.11
+readability-lxml==0.8.1
 
 # AI / Embeddings
-groq>=0.4.0
-sentence-transformers>=2.7.0
-numpy>=1.26.0
-scikit-learn>=1.4.0
+groq==0.9.0
+sentence-transformers==3.1.1
+numpy==1.26.4
+scikit-learn==1.5.2
 
 # UI
-streamlit>=1.33.0
+streamlit==1.39.0
 
 # Utilities
-python-frontmatter>=1.1.0
-filelock>=3.13.0
+python-frontmatter==1.1.0
+filelock==3.16.1
