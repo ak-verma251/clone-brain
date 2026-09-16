@@ -494,17 +494,29 @@ with tab3:
         if selected_cat != "All" and cat != selected_cat:
             continue
         summary = meta.get("summary", Path(cf).stem)
-        tags = meta.get("tags", [])
+        tags_raw = meta.get("tags", [])
+        if isinstance(tags_raw, str):
+            tags = [tags_raw]
+        elif isinstance(tags_raw, dict):
+            tags = list(tags_raw.keys())
+        elif isinstance(tags_raw, list):
+            tags = tags_raw
+        else:
+            tags = []
+            
+        tags = [str(t) for t in tags]
+
         preview = content[:200].strip()
 
         if search_term.strip():
             q = search_term.lower()
-            if not (q in summary.lower() or q in preview.lower() or any(q in t for t in tags)):
+            if not (q in summary.lower() or q in preview.lower() or any(q in t.lower() for t in tags)):
                 continue
 
         pill_class = CATEGORY_COLORS.get(cat, {}).get("pill", "pill-resources")
         icon = CATEGORY_COLORS.get(cat, {}).get("icon", "🔵")
         tags_html = "".join(f'<span class="note-tag">#{t}</span>' for t in tags[:5])
+
 
         st.markdown(f"""
         <div class="note-card">

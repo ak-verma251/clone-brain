@@ -1,6 +1,9 @@
 # .streamlit/config.toml
 # Optimised for Streamlit Community Cloud deployment
 
+[client]
+showErrorDetails = false
+
 [server]
 headless = true
 enableCORS = false
