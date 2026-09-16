@@ -1,4 +1,2 @@
-# System-level packages for Streamlit Community Cloud (Ubuntu/Debian)
-# Required by readability-lxml for HTML parsing
 libxml2-dev
 libxslt1-dev
