@@ -62,6 +62,8 @@ def parse_edges(notes: list) -> list:
     for node in notes:
         src = node["id"]
         for link in node.get("links", []):
+            if not isinstance(link, dict):
+                continue  # skip malformed legacy entries (stringified dicts)
             tgt = link.get("id")
             if not tgt or tgt == src:
                 continue

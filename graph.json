@@ -7,7 +7,7 @@
       "tags": [],
       "summary": "Home Office Acoustic Setup & Isolation Protocols",
       "timestamp": "2026-08-21T18:55:52.213Z",
-      "content": "Upgraded acoustic treatment for home studio workspace:\n- Placed 4-inch high-density fiberglass panels at primary mirror-reflection points.\n- Installed bass traps in the front two corners to tame 80Hz standing waves.\n- Positioned Shure SM7B dynamic microphone 3 inches from speaker with Cloudlifter inline preamp.\n- Room RT60 decay time dropped from 0.72s down to 0.28s, providing pristine voice recording quality."
+      "content": "Upgraded acoustic treatment for home studio workspace:\r\n- Placed 4-inch high-density fiberglass panels at primary mirror-reflection points.\r\n- Installed bass traps in the front two corners to tame 80Hz standing waves.\r\n- Positioned Shure SM7B dynamic microphone 3 inches from speaker with Cloudlifter inline preamp.\r\n- Room RT60 decay time dropped from 0.72s down to 0.28s, providing pristine voice recording quality."
     },
     {
       "id": "739928f2-d7ac-4de9-b11e-9a14a955e93e",
@@ -16,7 +16,7 @@
       "tags": [],
       "summary": "AI Agent Workflow Automation & Eval Harness",
       "timestamp": "2026-08-16T12:06:19.718Z",
-      "content": "Building automated evaluation pipeline for multi-step agent actions.\nGuidelines:\n- Strict user intent boundaries: Never invent unrequested external backends or bloated sidebars.\n- Schema verification: All JSON outputs validated against Zod / TypeScript schemas.\n- Non-blocking execution: Long-running agent tasks run asynchronously while keeping client UI responsive.\n- Synthetic golden test dataset with 50 edge-case queries."
+      "content": "Building automated evaluation pipeline for multi-step agent actions.\r\nGuidelines:\r\n- Strict user intent boundaries: Never invent unrequested external backends or bloated sidebars.\r\n- Schema verification: All JSON outputs validated against Zod / TypeScript schemas.\r\n- Non-blocking execution: Long-running agent tasks run asynchronously while keeping client UI responsive.\r\n- Synthetic golden test dataset with 50 edge-case queries."
     },
     {
       "id": "023e849c-68ac-49f0-a996-4bcbb9e2e84e",
@@ -25,7 +25,7 @@
       "tags": [],
       "summary": "Diaphragmatic Breathing & Nervous System Regulation",
       "timestamp": "2026-09-04T04:35:43.479Z",
-      "content": "Daily nervous system balancing protocols:\n- Morning: Box Breathing (4s inhale, 4s hold, 4s exhale, 4s hold) for 5 minutes.\n- Stress Spike: The Physiological Sigh (two quick inhales through the nose, long slow exhale through mouth).\n- Pre-sleep: 4-7-8 breathing sequence to trigger parasympathetic dominance.\n- Consistent practice elevated average nightly Heart Rate Variability (HRV) by 14ms over 60 days."
+      "content": "Daily nervous system balancing protocols:\r\n- Morning: Box Breathing (4s inhale, 4s hold, 4s exhale, 4s hold) for 5 minutes.\r\n- Stress Spike: The Physiological Sigh (two quick inhales through the nose, long slow exhale through mouth).\r\n- Pre-sleep: 4-7-8 breathing sequence to trigger parasympathetic dominance.\r\n- Consistent practice elevated average nightly Heart Rate Variability (HRV) by 14ms over 60 days."
     },
     {
       "id": "02e19ff0-3ab1-45c9-a3fd-3e8a5020cb7c",
@@ -34,7 +34,7 @@
       "tags": [],
       "summary": "Boglehead Index Investing & Financial Independence Buffer",
       "timestamp": "2026-08-17T20:00:10.971Z",
-      "content": "Core personal financial philosophy:\n- Three-fund portfolio allocation: Total US Stock Index (VTI), Total International (VXUS), and Total Bond Market (BND).\n- Maintain 6 months of living expenses in high-yield liquid cash emergency buffer.\n- Automate dollar-cost averaging on the 1st of every month regardless of market fluctuations.\n- Keep total expense ratio under 0.05% annually."
+      "content": "Core personal financial philosophy:\r\n- Three-fund portfolio allocation: Total US Stock Index (VTI), Total International (VXUS), and Total Bond Market (BND).\r\n- Maintain 6 months of living expenses in high-yield liquid cash emergency buffer.\r\n- Automate dollar-cost averaging on the 1st of every month regardless of market fluctuations.\r\n- Keep total expense ratio under 0.05% annually."
     },
     {
       "id": "7f8249c2-16bb-43b1-a9eb-8ff4a719761e",
@@ -43,7 +43,7 @@
       "tags": [],
       "summary": "Deep Work & Focus Management Protocols",
       "timestamp": "2026-08-18T14:06:14.205Z",
-      "content": "Rules adapted from Cal Newport's Deep Work methodology:\n- Commit to two uninterrupted 90-minute focus blocks each weekday morning.\n- Zero smartphone access or communication tabs during deep blocks.\n- Ritual shutdown at 5:30 PM: review open loops, write top 3 MITs (Most Important Tasks) for tomorrow.\n- Cognitive residue diminishes focus by up to 25% when switching between slack and deep code."
+      "content": "Rules adapted from Cal Newport's Deep Work methodology:\r\n- Commit to two uninterrupted 90-minute focus blocks each weekday morning.\r\n- Zero smartphone access or communication tabs during deep blocks.\r\n- Ritual shutdown at 5:30 PM: review open loops, write top 3 MITs (Most Important Tasks) for tomorrow.\r\n- Cognitive residue diminishes focus by up to 25% when switching between slack and deep code."
     },
     {
       "id": "c9570630-1460-424a-acd2-b76bbfe3acb9",
@@ -52,7 +52,7 @@
       "tags": [],
       "summary": "Personal Knowledge Management & PARA Organization",
       "timestamp": "2026-09-04T22:27:11.934Z",
-      "content": "Tiago Forte's PARA framework organizes information by actionability rather than topic:\n1. Projects: Short-term efforts in your work or life that you are actively working on with a specific deadline.\n2. Areas: Long-term responsibilities you want to manage over time without an end date (Health, Finance).\n3. Resources: Topics or themes of ongoing interest (Design, AI Research, Typography).\n4. Archives: Inactive items from the other three categories preserved for future reference."
+      "content": "Tiago Forte's PARA framework organizes information by actionability rather than topic:\r\n1. Projects: Short-term efforts in your work or life that you are actively working on with a specific deadline.\r\n2. Areas: Long-term responsibilities you want to manage over time without an end date (Health, Finance).\r\n3. Resources: Topics or themes of ongoing interest (Design, AI Research, Typography).\r\n4. Archives: Inactive items from the other three categories preserved for future reference."
     },
     {
       "id": "40be8681-8521-428c-bf04-a4c0f170e7d6",
@@ -61,20 +61,16 @@
       "tags": [],
       "summary": "Getting Things Done (GTD) Workflow Cheat Sheet",
       "timestamp": "2026-08-14T17:53:53.791Z",
-      "content": "David Allen's 5-stage workflow for managing commitments:\n1. Capture: Collect everything that has your attention into trusted inboxes.\n2. Clarify: Is it actionable? If under 2 minutes, do it immediately; otherwise delegate or defer.\n3. Organize: File into Next Actions, Projects, Waiting For, or Someday/Maybe.\n4. Reflect: Perform a weekly review to update lists and clear mental clutter.\n5. Engage: Execute choices with confidence."
+      "content": "David Allen's 5-stage workflow for managing commitments:\r\n1. Capture: Collect everything that has your attention into trusted inboxes.\r\n2. Clarify: Is it actionable? If under 2 minutes, do it immediately; otherwise delegate or defer.\r\n3. Organize: File into Next Actions, Projects, Waiting For, or Someday/Maybe.\r\n4. Reflect: Perform a weekly review to update lists and clear mental clutter.\r\n5. Engage: Execute choices with confidence."
     },
     {
       "id": "695f59f4-7207-45a8-bf8c-83210a04307a",
       "label": "An overview of the Digital Electronics course (E...",
       "category": "Resources",
-      "tags": [
-        "digital electronics",
-        "course outcomes",
-        "ecl2070"
-      ],
-      "summary": "An overview of the Digital Electronics course (ECL 2070) covering objectives, key topics, and recommended textbooks.",
+      "tags": [],
+      "summary": "An overview of the Digital Electronics course (ECL 2070) covering",
       "timestamp": "2026-09-06T04:55:12.132Z",
-      "content": "Digital Electronics\nECL 2070 4 – 0 – 0 = 4\nCourse Outcomes\nCO1 To provide the skills to efficiently acquire knowledge on digital electronic circuit analysis and\ndesign.\nCO2 To acquire Knowledge of various number systems and codes from historic point of view.\nCO3 To understand the logic families in digital circuits.\nCO4 To obtain the ability to analyze various aspects of sequential circuit design.\nCO5 To learn the design procedure for Sequential Circuits and data converters.\nBasic concepts of Boolean Algebra: Review of number systems - Binary, Hexadecimal, conversion from one\nto another, complement arithmatic, Signed and unsigned numbers and their arithmetic operations. BCD, Excess-\n3, Gray and Alphanumeric codes. Review of Boolean algebra, De-Morgan's Theorems, Standard Forms of Boolean\nExpressions, Minimization-Techniques: K-MAPS, VEM Technique, Q-M (Tabulation) method.\nCMOS Logic family : Logic family features, noise margin, setup time, hold time, delay, fan in, fan out,\nCMOS based logic gates.\nCombinational Logic Circuits: Problem formulation and design of Basic Combinational Logic Circuits,\nCombinational Logic Using Universal Gates. Basic Adders, ALU, Parity-Checkers and Generators, Comparators,\nDecoders, Encoders, Code Converters, Multiplexer (Data Selector), De-multiplexers\nSequential Circuits: Latches, Flip-flops (SR, JK, T, D, Master/Slave FF, ) Edge-Triggered Flip-Flops, Flip-Flop\nOperating Characteristics, Basic Flip-Flop Applications, Asynchronous Counter Operation, Synchronous Counter\nOperation, Up/Down Synchronous Counters.\nShift registers & Memories\nShift Register Functions, Serial In - Serial Out Shift Registers, Serial In - Parallel Out Shift Registers, Parallel In\n- Serial Out Shift Registers, Parallel In - Parallel Out Shift Registers, Bidirectional Shift Registers,Basics of\nSemiconductor Memories, Random-Access Memories (ROM), Read Only Memories (ROMs), Programmable ROM's\n(PROMs and EPROM's), PAL, PLA. FPGA introduction, CPLD.\nA/D and D/A convertor\nCharacteristics of ADC, Types of ADC- SAR, Dual Slope, Flash ADC. Characteristics of DAC, R-2R Ladder,\nWeighted Resistance Type\nRecommended Books:\n● “Digital Fundamentals” by Thomas L. Floyd, Prentice Hall, Inc\n● “Digital Systems - Principles and Applications” by Tocci, R. J. and Widner, Prentice Hall,\n● Switching and finite automata theory: Z V Kohavi.–TMH\n● Digital Logic Circuit Analysis & Design, by Victor P. Nelson, H. Troy Nagle, Bill D. Carroll and J. David\nIrwin, Prentice Hall,\n● Digital logic and computer design: M Morris Mano –PHI\n● Modern digital electronics: R.P. Jain. TMH\n● Digital Design: Principles and Practices, by Wakerly J F, Prentice-Hall,\n● “Digital Experiments Emphasizing Systems and Design,” by David Buchla, Prentice Hall, Inc,\n\n-- 1 of 1 --"
+      "content": "Digital Electronics\r\nECL 2070 4 – 0 – 0 = 4\r\nCourse Outcomes\r\nCO1 To provide the skills to efficiently acquire knowledge on digital electronic circuit analysis and\r\ndesign.\r\nCO2 To acquire Knowledge of various number systems and codes from historic point of view.\r\nCO3 To understand the logic families in digital circuits.\r\nCO4 To obtain the ability to analyze various aspects of sequential circuit design.\r\nCO5 To learn the design procedure for Sequential Circuits and data converters.\r\nBasic concepts of Boolean Algebra: Review of number systems - Binary, Hexadecimal, conversion from one\r\nto another, complement arithmatic, Signed and unsigned numbers and their arithmetic operations. BCD, Excess-\r\n3, Gray and Alphanumeric codes. Review of Boolean algebra, De-Morgan's Theorems, Standard Forms of Boolean\r\nExpressions, Minimization-Techniques: K-MAPS, VEM Technique, Q-M (Tabulation) method.\r\nCMOS Logic family : Logic family features, noise margin, setup time, hold time, delay, fan in, fan out,\r\nCMOS based logic gates.\r\nCombinational Logic Circuits: Problem formulation and design of Basic Combinational Logic Circuits,\r\nCombinational Logic Using Universal Gates. Basic Adders, ALU, Parity-Checkers and Generators, Comparators,\r\nDecoders, Encoders, Code Converters, Multiplexer (Data Selector), De-multiplexers\r\nSequential Circuits: Latches, Flip-flops (SR, JK, T, D, Master/Slave FF, ) Edge-Triggered Flip-Flops, Flip-Flop\r\nOperating Characteristics, Basic Flip-Flop Applications, Asynchronous Counter Operation, Synchronous Counter\r\nOperation, Up/Down Synchronous Counters.\r\nShift registers & Memories\r\nShift Register Functions, Serial In - Serial Out Shift Registers, Serial In - Parallel Out Shift Registers, Parallel In\r\n- Serial Out Shift Registers, Parallel In - Parallel Out Shift Registers, Bidirectional Shift Registers,Basics of\r\nSemiconductor Memories, Random-Access Memories (ROM), Read Only Memories (ROMs), Programmable ROM's\r\n(PROMs and EPROM's), PAL, PLA. FPGA introduction, CPLD.\r\nA/D and D/A convertor\r\nCharacteristics of ADC, Types of ADC- SAR, Dual Slope, Flash ADC. Characteristics of DAC, R-2R Ladder,\r\nWeighted Resistance Type\r\nRecommended Books:\r\n● “Digital Fundamentals” by Thomas L. Floyd, Prentice Hall, Inc\r\n● “Digital Systems - Principles and Applications” by Tocci, R. J. and Widner, Prentice Hall,\r\n● Switching and finite automata theory: Z V Kohavi.–TMH\r\n● Digital Logic Circuit Analysis & Design, by Victor P. Nelson, H. Troy Nagle, Bill D. Carroll and J. David\r\nIrwin, Prentice Hall,\r\n● Digital logic and computer design: M Morris Mano –PHI\r\n● Modern digital electronics: R.P. Jain. TMH\r\n● Digital Design: Principles and Practices, by Wakerly J F, Prentice-Hall,\r\n● “Digital Experiments Emphasizing Systems and Design,” by David Buchla, Prentice Hall, Inc,\r\n\r\n-- 1 of 1 --"
     },
     {
       "id": "6a5e3dcd-b7dc-4bc7-a3dc-f8c0fa8c2ea3",
@@ -83,7 +79,7 @@
       "tags": [],
       "summary": "Sentence Transformers & MiniLM Vector Spaces",
       "timestamp": "2026-08-11T00:13:29.787Z",
-      "content": "Overview of sentence-transformers/all-MiniLM-L6-v2:\n- Maps sentences and paragraphs to a 384-dimensional dense vector space.\n- Optimized for semantic search, clustering, and sentence similarity tasks.\n- Cosine similarity threshold >= 0.75 denotes clear semantic relationship; >= 0.85 denotes strong conceptual overlap.\n- Fast inference speed (<10ms per paragraph) makes it ideal for live knowledge graphs."
+      "content": "Overview of sentence-transformers/all-MiniLM-L6-v2:\r\n- Maps sentences and paragraphs to a 384-dimensional dense vector space.\r\n- Optimized for semantic search, clustering, and sentence similarity tasks.\r\n- Cosine similarity threshold >= 0.75 denotes clear semantic relationship; >= 0.85 denotes strong conceptual overlap.\r\n- Fast inference speed (<10ms per paragraph) makes it ideal for live knowledge graphs."
     },
     {
       "id": "73bee3dd-efe3-4c8c-a125-8b05869ecf35",
@@ -92,7 +88,7 @@
       "tags": [],
       "summary": "LLM Reasoning Benchmarks & Test-Time Compute",
       "timestamp": "2026-08-13T14:53:36.080Z",
-      "content": "Comparative analysis of modern reasoning models and inference hardware:\n- Groq LPUs achieve 500+ tokens per second on Llama-3 70B models, enabling real-time conversational synthesis.\n- Test-time compute (chain-of-thought verification, beam search, self-consistency) drastically improves multi-step logical deduction.\n- Grounding with RAG prompts prevents hallucinations by forcing citations strictly against provided context snippets."
+      "content": "Comparative analysis of modern reasoning models and inference hardware:\r\n- Groq LPUs achieve 500+ tokens per second on Llama-3 70B models, enabling real-time conversational synthesis.\r\n- Test-time compute (chain-of-thought verification, beam search, self-consistency) drastically improves multi-step logical deduction.\r\n- Grounding with RAG prompts prevents hallucinations by forcing citations strictly against provided context snippets."
     },
     {
       "id": "8d31bc25-bf57-49e5-9aba-7e6c6b56edb7",
@@ -101,7 +97,7 @@
       "tags": [],
       "summary": "Vis-Network Force-Directed Physics Configuration",
       "timestamp": "2026-08-25T13:47:17.002Z",
-      "content": "Optimal physics tuning for interactive knowledge graph networks:\n- Solver: forceAtlas2Based.\n- Gravitational constant: -35 (provides enough repulsion to prevent node clustering).\n- Central gravity: 0.005 (gently pulls outlying islands towards center screen).\n- Spring constant: 0.18 with spring length 100px.\n- Edge thickness scales from 1.2px (weak link) to 3.0px (strong link)."
+      "content": "Optimal physics tuning for interactive knowledge graph networks:\r\n- Solver: forceAtlas2Based.\r\n- Gravitational constant: -35 (provides enough repulsion to prevent node clustering).\r\n- Central gravity: 0.005 (gently pulls outlying islands towards center screen).\r\n- Spring constant: 0.18 with spring length 100px.\r\n- Edge thickness scales from 1.2px (weak link) to 3.0px (strong link)."
     },
     {
       "id": "97151457-368d-4852-b822-5e615d0a0ff7",
@@ -110,46 +106,46 @@
       "tags": [],
       "summary": "Mathematical Typography Scales & Optical Layout Spacing",
       "timestamp": "2026-08-26T15:42:46.727Z",
-      "content": "Rules for deliberate, high-craft user interface design:\n- Use consistent typographic scale step ratios (Major Second 1.125 for dense dashboards; Perfect Fourth 1.333 for editorial).\n- Nested corner radius rule: Inner Radius = Outer Radius - Padding.\n- Never use pure #000 or #FFF; tint neutrals with subtle warm or cool undertones.\n- Button horizontal padding must be exactly 2x the vertical padding for optical balance."
+      "content": "Rules for deliberate, high-craft user interface design:\r\n- Use consistent typographic scale step ratios (Major Second 1.125 for dense dashboards; Perfect Fourth 1.333 for editorial).\r\n- Nested corner radius rule: Inner Radius = Outer Radius - Padding.\r\n- Never use pure #000 or #FFF; tint neutrals with subtle warm or cool undertones.\r\n- Button horizontal padding must be exactly 2x the vertical padding for optical balance."
     },
     {
       "id": "a558b239-2910-40ee-8b32-72542ef15c90",
       "label": "Getting Things Done is a personal productivity s...",
       "category": "Resources",
-      "tags": [
-        "getting things done",
-        "productivity",
-        "time management"
-      ],
-      "summary": "Getting Things Done is a personal productivity system and book by David Allen that outlines a method for externalizing tasks to reduce stress and increase efficiency.",
+      "tags": [],
+      "summary": "Getting Things Done is a personal productivity system and book by David",
       "timestamp": "2026-09-05T13:30:46.503716+00:00",
-      "content": "# Getting Things Done is a personal productivity system and book by David Allen that outlines a method for externalizing tasks to reduce stress and increase efficiency.\n\nGetting Things Done - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Themes Toggle Themes subsection 1.1 Workflow 1.2 Implementation 1.3 Perspective 1.4 Summary 2 Reception 3 See also 4 Notes 5 References 6 Further reading 7 External links Toggle the table of contents Getting Things Done 26 languages العربية Беларуская Català Čeština Dansk Deutsch Esperanto Español Suomi Français עברית Հայերեն Italiano 日本語 한국어 Nederlands Norsk bokmål Polski Português Русский Simple English Slovenčina Svenska தமிழ் Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Personal productivity system and 2001 book Getting Things Done: The Art of Stress-Free Productivity First edition cover Author David Allen Subject Business Publisher Penguin Books Publication date 2001 Published in English 2001 Pages 267 ISBN 978-0-14-312656-0 (2015 reprint edition) Online Computer Library Center number&lt;/span>\"}]]}'>OCLC 914220080 Getting Things Done ( GTD ) is a personal productivity system developed by David Allen and published in a book of the same name. [ 1 ] GTD is described as a time management system. [ 2 ] Allen states \"there is an inverse relationship between things on your mind and those things getting done\". [ 3 ] {{rp|13–22}}\"}},\"i\":0}}]}'> [ a ] The GTD method rests on the idea of moving all items of interest, relevant information, issues, tasks and projects out of one's mind by recording them externally and then breaking them into actionable work items with known time limits . {{rp|36}}\"}},\"i\":0}}]}'> [ b ] [ c ] This allows one's attention to focus on taking action on each task listed in an external record, instead of recalling them intuitively. [ 5 ] First published in 2001, [ 4 ] a revised edition of the book was released in 2015 to reflect the changes in information technology during the preceding decade. [ 1 ] Themes [ edit ] Allen first demonstrates stress reduction from the method with the following exercise, centered on a task that has an unclear outcome or whose next action is not defined. Allen calls these sources of stress {{rp|14}}\"}},\"i\":0}}]}'> [ d ] \"open loops\", \"incompletes\", or \"stuff\". [ 1 ] : 13 {{rp|13}}\"}},\"i\":0}}]}'> [ e ] The most annoying, distracting, or interesting task is chosen, and defined as an \"incomplete\". [ e ] A description of the successful outcome of the \"incomplete\" is written down in one sentence, along with the criteria by which the task will be considered completed. {{rp|13}}\"}},\"i\":0}}]}'> [ f ] The next step required to approach completion of the task is written down. {{rp|13}}\"}},\"i\":0}}]}'> [ g ] A self-assessment is made of the emotions experienced after completing the steps of this process. {{rp|14}}\"}},\"i\":0}}]}'> [ h ] He claims stress can be reduced and productivity increased by putting reminders about everything one is not working on into a trusted system external to one's mind. In this way, one can work on the task at hand without distraction from the \"incompletes\". [ 1 ] : 14 The system in GTD requires one to have the following tools within easy reach: An inbox A trash can A filing system for reference material Several lists (detailed below) A calendar (either a paper-based or digital calendar ) These tools can be physical or electronic as appropriate (e.g., a physical \"in\" tray or an email inbox). [ 1 ] : 88 Then, as \"stuff\" enters one's life, it is captured in these tools and processed with the following workflow. [ 1 ] : 27 Workflow [ edit ] Diagram illustrating the steps of inbox processing in Getting Things Done The GTD workflow consists of five stages. The workflow is driven by five steps: capture, clarify, organize, reflect, and engage. [ 6 ] (The first edition used the names collect, process, organize, plan, and do; [ 4 ] the descriptions of the stages are similar in both editions). Once all the material (\"stuff\") is captured (or collected) in the inbox, [ 1 ] : 106 each item is clarified [ 1 ] : 122 and organized [ 1 ] : 141 by asking and answering questions about each item in turn as shown in the gray boxes in the logic tree diagram. As a result, items end up in one of the eight end points in the diagram: in the trash on the someday/maybe list in a neat reference filing system on a list of tasks, with the outcome and next action defined if the \"incomplete\" is a \"project\" (i.e., if it will require two or more steps to complete it) immediately completed and checked off if it can be completed in under two minutes delegated to someone else and, if one wants a reminder to follow up, added to a \"waiting for\" list on a context-based \"next action\" list if there is only one step to complete it on one's calendar [ 1 ] : 27 Empty one's inbox or inboxes daily or at least weekly (\"in\" to empty). [ 1 ] : 122 Do not use one's inbox as a \"to do\" list. Do not put clarified items back into the inbox. [ 1 ] : 27 Emptying one's inbox does not mean finishing everything. It just means applying the \"capture, clarify, organize\" steps to all one's \"stuff\". [ 1 ] : 27 Next, reflection (termed planning in the first edition) occurs. Multi-step projects identified above are assigned a desired outcome and a single \"next action\". [ 1 ] : 191 Finally, a task from one's task list is worked on (\"engage\" in the 2nd edition, \"do\" in the 1st edition) unless the calendar dictates otherwise. One selects which task to work on next by considering where one is (i.e., the \"context\", such as at home, at work, out shopping, by the phone, at one's computer, with a particular person), time available, energy available, and priority. [ 1 ] : 204 Implementation [ edit ] Because hardware and software is changing so rapidly, GTD is deliberately technologically neutral. (In fact, Allen advises people to start with a paper-based system. [ 7 ] ) Many task management tools claim to implement GTD methodology [ 8 ] and Allen maintains a list of some technology that has been adopted in or designed for GTD. Some are designated \"GTD Enabled\", meaning Allen was involved in the design. [ 9 ] Perspective [ edit ] Allen emphasizes two key elements of GTD— control and perspective . The workflow is the center of the control aspect. The goal of the control processes in GTD is to get everything except the current task out of one's head and into this trusted system external to one's mind. He borrows a simile used in martial arts termed \"mind like water\". When a small object is thrown into a pool of water, the water responds appropriately with a small splash followed by quiescence. When a large object is thrown in the water again responds appropriately with a large splash followed by quiescence. The opposite of \"mind like water\" is a mind that never returns to quiescence but remains continually stressed by every input. [ 1 ] : 12 With a trusted system and \"mind like water\" one can have a better perspective on one's life. Allen recommends reflection from six levels, called \"Horizons of Focus\": [ 1 ] : 215–219 Horizon 5: Life Horizon 4: Long-term visions Horizon 3: 1–2 year goals Horizon 2: Areas of focus and accountability Horizon 1: Current projects Ground: Current actions Unlike some theories, which focus on top-down goal-setting, GTD works in the opposite direction. Allen argues that it is often difficult for individuals to focus on big picture goals if they cannot sufficiently control th"
+      "content": "# Getting Things Done is a personal productivity system and book by David Allen that outlines a method for externalizing tasks to reduce stress and increase efficiency.\r\n\r\nGetting Things Done - Wikipedia Jump to content Main menu Main menu move to sidebar hide Navigation Main page Contents Current events Random article About Wikipedia Contact us Contribute Help Learn to edit Community portal Recent changes Upload file Special pages Search Search Appearance Donate Create account Log in Personal tools Donate Create account Log in Contents move to sidebar hide (Top) 1 Themes Toggle Themes subsection 1.1 Workflow 1.2 Implementation 1.3 Perspective 1.4 Summary 2 Reception 3 See also 4 Notes 5 References 6 Further reading 7 External links Toggle the table of contents Getting Things Done 26 languages العربية Беларуская Català Čeština Dansk Deutsch Esperanto Español Suomi Français עברית Հայերեն Italiano 日本語 한국어 Nederlands Norsk bokmål Polski Português Русский Simple English Slovenčina Svenska தமிழ் Українська 中文 Edit links Article Talk English Read Edit View history Tools Tools move to sidebar hide Actions Read Edit View history General What links here Related changes Upload file Permanent link Page information Cite this page Get shortened URL Switch to legacy parser Print/export Download as PDF Printable version In other projects Wikidata item Appearance move to sidebar hide From Wikipedia, the free encyclopedia Personal productivity system and 2001 book Getting Things Done: The Art of Stress-Free Productivity First edition cover Author David Allen Subject Business Publisher Penguin Books Publication date 2001 Published in English 2001 Pages 267 ISBN 978-0-14-312656-0 (2015 reprint edition) Online Computer Library Center number&lt;/span>\"}]]}'>OCLC 914220080 Getting Things Done ( GTD ) is a personal productivity system developed by David Allen and published in a book of the same name. [ 1 ] GTD is described as a time management system. [ 2 ] Allen states \"there is an inverse relationship between things on your mind and those things getting done\". [ 3 ] {{rp|13–22}}\"}},\"i\":0}}]}'> [ a ] The GTD method rests on the idea of moving all items of interest, relevant information, issues, tasks and projects out of one's mind by recording them externally and then breaking them into actionable work items with known time limits . {{rp|36}}\"}},\"i\":0}}]}'> [ b ] [ c ] This allows one's attention to focus on taking action on each task listed in an external record, instead of recalling them intuitively. [ 5 ] First published in 2001, [ 4 ] a revised edition of the book was released in 2015 to reflect the changes in information technology during the preceding decade. [ 1 ] Themes [ edit ] Allen first demonstrates stress reduction from the method with the following exercise, centered on a task that has an unclear outcome or whose next action is not defined. Allen calls these sources of stress {{rp|14}}\"}},\"i\":0}}]}'> [ d ] \"open loops\", \"incompletes\", or \"stuff\". [ 1 ] : 13 {{rp|13}}\"}},\"i\":0}}]}'> [ e ] The most annoying, distracting, or interesting task is chosen, and defined as an \"incomplete\". [ e ] A description of the successful outcome of the \"incomplete\" is written down in one sentence, along with the criteria by which the task will be considered completed. {{rp|13}}\"}},\"i\":0}}]}'> [ f ] The next step required to approach completion of the task is written down. {{rp|13}}\"}},\"i\":0}}]}'> [ g ] A self-assessment is made of the emotions experienced after completing the steps of this process. {{rp|14}}\"}},\"i\":0}}]}'> [ h ] He claims stress can be reduced and productivity increased by putting reminders about everything one is not working on into a trusted system external to one's mind. In this way, one can work on the task at hand without distraction from the \"incompletes\". [ 1 ] : 14 The system in GTD requires one to have the following tools within easy reach: An inbox A trash can A filing system for reference material Several lists (detailed below) A calendar (either a paper-based or digital calendar ) These tools can be physical or electronic as appropriate (e.g., a physical \"in\" tray or an email inbox). [ 1 ] : 88 Then, as \"stuff\" enters one's life, it is captured in these tools and processed with the following workflow. [ 1 ] : 27 Workflow [ edit ] Diagram illustrating the steps of inbox processing in Getting Things Done The GTD workflow consists of five stages. The workflow is driven by five steps: capture, clarify, organize, reflect, and engage. [ 6 ] (The first edition used the names collect, process, organize, plan, and do; [ 4 ] the descriptions of the stages are similar in both editions). Once all the material (\"stuff\") is captured (or collected) in the inbox, [ 1 ] : 106 each item is clarified [ 1 ] : 122 and organized [ 1 ] : 141 by asking and answering questions about each item in turn as shown in the gray boxes in the logic tree diagram. As a result, items end up in one of the eight end points in the diagram: in the trash on the someday/maybe list in a neat reference filing system on a list of tasks, with the outcome and next action defined if the \"incomplete\" is a \"project\" (i.e., if it will require two or more steps to complete it) immediately completed and checked off if it can be completed in under two minutes delegated to someone else and, if one wants a reminder to follow up, added to a \"waiting for\" list on a context-based \"next action\" list if there is only one step to complete it on one's calendar [ 1 ] : 27 Empty one's inbox or inboxes daily or at least weekly (\"in\" to empty). [ 1 ] : 122 Do not use one's inbox as a \"to do\" list. Do not put clarified items back into the inbox. [ 1 ] : 27 Emptying one's inbox does not mean finishing everything. It just means applying the \"capture, clarify, organize\" steps to all one's \"stuff\". [ 1 ] : 27 Next, reflection (termed planning in the first edition) occurs. Multi-step projects identified above are assigned a desired outcome and a single \"next action\". [ 1 ] : 191 Finally, a task from one's task list is worked on (\"engage\" in the 2nd edition, \"do\" in the 1st edition) unless the calendar dictates otherwise. One selects which task to work on next by considering where one is (i.e., the \"context\", such as at home, at work, out shopping, by the phone, at one's computer, with a particular person), time available, energy available, and priority. [ 1 ] : 204 Implementation [ edit ] Because hardware and software is changing so rapidly, GTD is deliberately technologically neutral. (In fact, Allen advises people to start with a paper-based system. [ 7 ] ) Many task management tools claim to implement GTD methodology [ 8 ] and Allen maintains a list of some technology that has been adopted in or designed for GTD. Some are designated \"GTD Enabled\", meaning Allen was involved in the design. [ 9 ] Perspective [ edit ] Allen emphasizes two key elements of GTD— control and perspective . The workflow is the center of the control aspect. The goal of the control processes in GTD is to get everything except the current task out of one's head and into this trusted system external to one's mind. He borrows a simile used in martial arts termed \"mind like water\". When a small object is thrown into a pool of water, the water responds appropriately with a small splash followed by quiescence. When a large object is thrown in the water again responds appropriately with a large splash followed by quiescence. The opposite of \"mind like water\" is a mind that never returns to quiescence but remains continually stressed by every input. [ 1 ] : 12 With a trusted system and \"mind like water\" one can have a better perspective on one's life. Allen recommends reflection from six levels, called \"Horizons of Focus\": [ 1 ] : 215–219 Horizon 5: Life Horizon 4: Long-term visions Horizon 3: 1–2 year goals Horizon 2: Areas of focus and accountability Horizon 1: Current projects Ground: Current actions Unlike some theories, which focus on top-down goal-setting, GTD works in the opposite direction. Allen argues that it is often difficult for individuals to focus on big picture goals if they cannot sufficiently control th"
     },
     {
       "id": "dbf73f53-38bd-40bc-9320-8f0819122774",
       "label": "A curated list of beginner, intermediate, and ad...",
       "category": "Resources",
-      "tags": [
-        "web development",
-        "project ideas",
-        "skill levels"
-      ],
-      "summary": "A curated list of beginner, intermediate, and advanced web development project ideas organized by required technologies and skill level.",
+      "tags": [],
+      "summary": "A curated list of beginner, intermediate, and advanced web development",
       "timestamp": "2026-09-06T04:42:04.974Z",
-      "content": "Beginner Level Web Development Project\nEngaging in projects is one of the best ways to solidify your knowledge. Now, Let’s look at some of the best new Web projects for beginners in this section and each project deals with a different set of issues, including HTML and CSS. Beginners will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development.\n\nTools & Technologies Used: HTML and CSS\n\nEvent Webpage\nParallax Webpage\nPortfolio Gallery\nLorem Ipsum Generator\nPrice Range Slider\nMulti Step Progress Bar\nGithub Profile Search\nNotes App\nNeumorphism Login Form\nIntermediate-Level Web Development Projects\nLet’s look at some of the best new Web projects for Intermediate in this section and each project deals with a different set of issues, including HTML, CSS and JavaScript. Intermediate will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development in the Intermediate level.\n\nTools & Technologies: HTML ,CSS & JavaScript\n\nResponsive Sliding Login and Registration Forms\nStudent Grade Calculator\nSlide Down a Navigation Bar on Scroll\nDesign a BMI Calculator\nToast Notification\nDetect Internet Speed Test\nTip Calculator\nAnalog Clock\nPay Role Management Webpage\nMousemove Parallax Effects\nText to Speech Converter\nCreate a Portfolio Website\nAI Image Generator Website\nAdvanced Web Development Projects\nLet’s look at some of the best new Web projects for Advanced in this section and each project deals with a different set of issues, including HTML, CSS and JavaScript. Advanced developers will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development in the Intermediate level.\n\nTools & Technologies: AngularJS\n\nTo-Do List\nSimple Web-app\nProgressive web-app\nSingle page routing app\nMulti-select dropdown\nTools & Technologies: React.js\n\nDesign a Calculator\nQuiz App\nTodo App\nDice Rolling App\nCoin Flipping App\nRock Paper Scissor Game\nTools & Technologies: Node.js\n\nSingle File Upload with Multer\nQR Code Generator Service\nChat App using socket.io\nLibrary Management System\nUser Management System\nTools & Technologies: PHP\n\nAdmin Login Page\nSignup Form using PHP and MySQL\nGroup Chat Application\nPHP Image Resizer\nPDF Downloader"
+      "content": "Beginner Level Web Development Project\r\nEngaging in projects is one of the best ways to solidify your knowledge. Now, Let’s look at some of the best new Web projects for beginners in this section and each project deals with a different set of issues, including HTML and CSS. Beginners will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development.\r\n\r\nTools & Technologies Used: HTML and CSS\r\n\r\nEvent Webpage\r\nParallax Webpage\r\nPortfolio Gallery\r\nLorem Ipsum Generator\r\nPrice Range Slider\r\nMulti Step Progress Bar\r\nGithub Profile Search\r\nNotes App\r\nNeumorphism Login Form\r\nIntermediate-Level Web Development Projects\r\nLet’s look at some of the best new Web projects for Intermediate in this section and each project deals with a different set of issues, including HTML, CSS and JavaScript. Intermediate will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development in the Intermediate level.\r\n\r\nTools & Technologies: HTML ,CSS & JavaScript\r\n\r\nResponsive Sliding Login and Registration Forms\r\nStudent Grade Calculator\r\nSlide Down a Navigation Bar on Scroll\r\nDesign a BMI Calculator\r\nToast Notification\r\nDetect Internet Speed Test\r\nTip Calculator\r\nAnalog Clock\r\nPay Role Management Webpage\r\nMousemove Parallax Effects\r\nText to Speech Converter\r\nCreate a Portfolio Website\r\nAI Image Generator Website\r\nAdvanced Web Development Projects\r\nLet’s look at some of the best new Web projects for Advanced in this section and each project deals with a different set of issues, including HTML, CSS and JavaScript. Advanced developers will be better prepared to tackle more challenging tasks by the time they have finished reading this article and have a better understanding of the fundamentals of Web Development in the Intermediate level.\r\n\r\nTools & Technologies: AngularJS\r\n\r\nTo-Do List\r\nSimple Web-app\r\nProgressive web-app\r\nSingle page routing app\r\nMulti-select dropdown\r\nTools & Technologies: React.js\r\n\r\nDesign a Calculator\r\nQuiz App\r\nTodo App\r\nDice Rolling App\r\nCoin Flipping App\r\nRock Paper Scissor Game\r\nTools & Technologies: Node.js\r\n\r\nSingle File Upload with Multer\r\nQR Code Generator Service\r\nChat App using socket.io\r\nLibrary Management System\r\nUser Management System\r\nTools & Technologies: PHP\r\n\r\nAdmin Login Page\r\nSignup Form using PHP and MySQL\r\nGroup Chat Application\r\nPHP Image Resizer\r\nPDF Downloader"
     },
     {
       "id": "efd987fe-8dcf-4265-aa27-8aef0de01ed9",
       "label": "Deep work needs uninterrupted 90‑120 minute bloc...",
       "category": "Resources",
-      "tags": [
-        "deep work",
-        "focus",
-        "productivity"
-      ],
-      "summary": "Deep work needs uninterrupted 90‑120 minute blocks without notifications to achieve flow.",
+      "tags": [],
+      "summary": "Deep work needs uninterrupted 90‑120 minute blocks without",
       "timestamp": "2026-09-05T13:30:46.411883+00:00",
-      "content": "# Deep work needs uninterrupted 90‑120 minute blocks without notifications to achieve flow.\n\nDeep work requires uninterrupted blocks of 90 to 120 minutes with zero notifications to reach state of flow."
+      "content": "# Deep work needs uninterrupted 90‑120 minute blocks without notifications to achieve flow.\r\n\r\nDeep work requires uninterrupted blocks of 90 to 120 minutes with zero notifications to reach state of flow."
+    },
+    {
+      "id": "fac74053-9f61-4d8b-b8ec-e3806cba51cc",
+      "label": "how are you",
+      "category": "Resources",
+      "tags": [
+        "knowledge",
+        "resources"
+      ],
+      "summary": "how are you",
+      "timestamp": "2026-09-17T13:36:13.206Z",
+      "content": "how are you"
     },
     {
       "id": "3bb22081-c9e3-4046-839a-0405aa355df5",
@@ -158,7 +154,7 @@
       "tags": [],
       "summary": "Archived 2024 Product Roadmap Post-Mortem",
       "timestamp": "2026-08-28T08:38:37.110Z",
-      "content": "Retrospective on the 2024 SaaS MVP launch:\n- What went well: Core vector indexing engine was delivered 2 weeks ahead of schedule.\n- What went wrong: Over-engineered user permission groups before validating user demand.\n- Key takeaway: Build the thinnest complete slice of user value before expanding administrative infrastructure."
+      "content": "Retrospective on the 2024 SaaS MVP launch:\r\n- What went well: Core vector indexing engine was delivered 2 weeks ahead of schedule.\r\n- What went wrong: Over-engineered user permission groups before validating user demand.\r\n- Key takeaway: Build the thinnest complete slice of user value before expanding administrative infrastructure."
     },
     {
       "id": "748184ab-7401-4ce8-a5e7-e3c646a51275",
@@ -167,7 +163,7 @@
       "tags": [],
       "summary": "Legacy Habit Tracker Spreadsheet Template (2024)",
       "timestamp": "2026-08-13T06:45:59.681Z",
-      "content": "Archived Google Sheets habit tracker template from 2024:\n- Monitored daily reading (20 pages), hydration (3 liters), and meditation (10 mins).\n- Annual completion rate achieved: 78%.\n- Lessons learned: Tracking more than 4 habits simultaneously caused tracker fatigue by Q3; reduced to 2 essential habits in 2025."
+      "content": "Archived Google Sheets habit tracker template from 2024:\r\n- Monitored daily reading (20 pages), hydration (3 liters), and meditation (10 mins).\r\n- Annual completion rate achieved: 78%.\r\n- Lessons learned: Tracking more than 4 habits simultaneously caused tracker fatigue by Q3; reduced to 2 essential habits in 2025."
     },
     {
       "id": "f63b7276-4f4c-4cc5-8a93-5f6a6170f8f2",
@@ -176,7 +172,7 @@
       "tags": [],
       "summary": "2025 Tax Filing Checklist & Receipts Summary",
       "timestamp": "2026-08-27T13:44:02.225Z",
-      "content": "Archived summary for fiscal year 2025 tax season:\n- Form 1040 filed on March 14, 2026.\n- Itemized business deductions: Home office square footage calculation (simplified method 300 sq ft).\n- Hardware depreciation: M3 MacBook Pro and studio microphone hardware.\n- Confirmation receipt stored in offline encrypted drive."
+      "content": "Archived summary for fiscal year 2025 tax season:\r\n- Form 1040 filed on March 14, 2026.\r\n- Itemized business deductions: Home office square footage calculation (simplified method 300 sq ft).\r\n- Hardware depreciation: M3 MacBook Pro and studio microphone hardware.\r\n- Confirmation receipt stored in offline encrypted drive."
     }
   ],
   "edges": [
@@ -189,7 +185,7 @@
     {
       "source": "7f8249c2-16bb-43b1-a9eb-8ff4a719761e",
       "target": "efd987fe-8dcf-4265-aa27-8aef0de01ed9",
-      "weight": 0.96,
+      "weight": 0.894,
       "type": "strong"
     },
     {
@@ -218,12 +214,6 @@
     },
     {
       "source": "40be8681-8521-428c-bf04-a4c0f170e7d6",
-      "target": "efd987fe-8dcf-4265-aa27-8aef0de01ed9",
-      "weight": 0.762,
-      "type": "weak"
-    },
-    {
-      "source": "40be8681-8521-428c-bf04-a4c0f170e7d6",
       "target": "c9570630-1460-424a-acd2-b76bbfe3acb9",
       "weight": 0.757,
       "type": "weak"
@@ -231,13 +221,13 @@
     {
       "source": "695f59f4-7207-45a8-bf8c-83210a04307a",
       "target": "a558b239-2910-40ee-8b32-72542ef15c90",
-      "weight": 0.785,
+      "weight": 0.78,
       "type": "weak"
     },
     {
       "source": "695f59f4-7207-45a8-bf8c-83210a04307a",
       "target": "dbf73f53-38bd-40bc-9320-8f0819122774",
-      "weight": 0.763,
+      "weight": 0.766,
       "type": "weak"
     },
     {
@@ -248,38 +238,32 @@
     },
     {
       "source": "97151457-368d-4852-b822-5e615d0a0ff7",
-      "target": "c9570630-1460-424a-acd2-b76bbfe3acb9",
-      "weight": 0.761,
+      "target": "dbf73f53-38bd-40bc-9320-8f0819122774",
+      "weight": 0.762,
       "type": "weak"
     },
     {
       "source": "97151457-368d-4852-b822-5e615d0a0ff7",
-      "target": "dbf73f53-38bd-40bc-9320-8f0819122774",
+      "target": "c9570630-1460-424a-acd2-b76bbfe3acb9",
       "weight": 0.761,
       "type": "weak"
     },
     {
       "source": "a558b239-2910-40ee-8b32-72542ef15c90",
       "target": "dbf73f53-38bd-40bc-9320-8f0819122774",
-      "weight": 0.925,
+      "weight": 0.916,
       "type": "strong"
     },
     {
       "source": "dbf73f53-38bd-40bc-9320-8f0819122774",
       "target": "c9570630-1460-424a-acd2-b76bbfe3acb9",
-      "weight": 0.766,
+      "weight": 0.768,
       "type": "weak"
     },
     {
-      "source": "efd987fe-8dcf-4265-aa27-8aef0de01ed9",
-      "target": "a558b239-2910-40ee-8b32-72542ef15c90",
-      "weight": 0.882,
-      "type": "strong"
-    },
-    {
-      "source": "efd987fe-8dcf-4265-aa27-8aef0de01ed9",
+      "source": "fac74053-9f61-4d8b-b8ec-e3806cba51cc",
       "target": "c9570630-1460-424a-acd2-b76bbfe3acb9",
-      "weight": 0.773,
+      "weight": 0.766,
       "type": "weak"
     },
     {

@@ -68,72 +68,129 @@ def simple_yaml_load(text: str) -> dict:
     result = {}
     current_key = None
     current_sub = None
-    
+    # For block-sequence lists-of-dicts (links field)
+    current_list = None       # the list being accumulated
+    current_list_item = None  # the dict currently being built
+
+    def _cast(val: str):
+        val = val.strip().strip('"').strip("'")
+        if val.isdigit():
+            return int(val)
+        try:
+            f = float(val)
+            return f
+        except ValueError:
+            pass
+        if val.startswith("[") and val.endswith("]"):
+            return [x.strip().strip('"').strip("'") for x in val[1:-1].split(",") if x.strip()]
+        return val
+
+    def _flush_list_item():
+        """Commit the current list-of-dicts item into the list."""
+        if current_list_item is not None and current_list is not None:
+            current_list.append(current_list_item)
+
     for line in text.splitlines():
         trimmed = line.strip()
         if not trimmed or trimmed.startswith("#"):
             continue
-        
-        # Sub-indent (4 spaces)
-        if line.startswith("    ") and current_sub and current_key:
-            sub_key, val = trimmed.split(":", 1)
-            sub_key = sub_key.strip()
-            val = val.strip().strip('"').strip("'")
-            if current_key in result and isinstance(result[current_key], dict):
-                if current_sub in result[current_key] and isinstance(result[current_key][current_sub], dict):
-                    result[current_key][current_sub][sub_key] = val
+
+        indent = len(line) - len(line.lstrip())
+
+        # Block-sequence item: "  - key: val" (2-space indent + dash)
+        if indent == 2 and trimmed.startswith("- ") and current_key is not None:
+            # Flush previous item
+            if current_list_item is not None:
+                current_list.append(current_list_item)
+            current_list_item = {}
+            if current_list is None:
+                # Convert the key to a list
+                result[current_key] = []
+                current_list = result[current_key]
+            rest = trimmed[2:]  # strip leading "- "
+            if ":" in rest:
+                sk, sv = rest.split(":", 1)
+                current_list_item[sk.strip()] = _cast(sv)
             continue
-            
-        # First level indent (2 spaces)
-        if line.startswith("  ") and current_key:
+
+        # Continuation key-value inside a block-sequence item (4-space indent)
+        if indent == 4 and current_list_item is not None and ":" in trimmed:
+            sk, sv = trimmed.split(":", 1)
+            current_list_item[sk.strip()] = _cast(sv)
+            continue
+
+        # Any other line – flush the pending list item first
+        if current_list_item is not None:
+            current_list.append(current_list_item)
+            current_list_item = None
+            current_list = None
+
+        # Sub-indent (4 spaces) — nested dict under a dict key
+        if indent == 4 and current_sub and current_key:
             if ":" in trimmed:
                 sub_key, val = trimmed.split(":", 1)
                 sub_key = sub_key.strip()
-                val = val.strip().strip('"').strip("'")
-                if not val:
+                val = _cast(val)
+                if current_key in result and isinstance(result[current_key], dict):
+                    if current_sub in result[current_key] and isinstance(result[current_key][current_sub], dict):
+                        result[current_key][current_sub][sub_key] = val
+            continue
+
+        # First level indent (2 spaces) — sub-key of a dict
+        if indent == 2 and current_key:
+            if ":" in trimmed:
+                sub_key, val = trimmed.split(":", 1)
+                sub_key = sub_key.strip()
+                val_str = val.strip().strip('"').strip("'")
+                if not val_str:
                     current_sub = sub_key
                     if current_key not in result:
                         result[current_key] = {}
                     result[current_key][sub_key] = {}
                 else:
-                    if val.isdigit():
-                        val = int(val)
-                    elif val.replace(".", "", 1).isdigit():
-                        val = float(val)
-                    elif val.startswith("[") and val.endswith("]"):
-                        items = [x.strip().strip('"').strip("'") for x in val[1:-1].split(",") if x.strip()]
-                        val = items
+                    val = _cast(val)
                     if current_key not in result or not isinstance(result[current_key], dict):
                         result[current_key] = {}
                     result[current_key][sub_key] = val
             continue
-            
+
         # Root level
         if ":" in trimmed:
             k, v = trimmed.split(":", 1)
             k = k.strip()
-            v = v.strip().strip('"').strip("'")
-            if not v:
+            v_str = v.strip().strip('"').strip("'")
+            current_sub = None
+            if not v_str:
                 current_key = k
                 result[k] = {}
             else:
-                if v.startswith("[") and v.endswith("]"):
-                    items = [x.strip().strip('"').strip("'") for x in v[1:-1].split(",") if x.strip()]
-                    v = items
-                elif v.isdigit():
-                    v = int(v)
-                elif v.replace(".", "", 1).isdigit():
-                    v = float(v)
-                result[k] = v
+                result[k] = _cast(v)
                 current_key = None
+
+    # Flush any trailing list item
+    if current_list_item is not None and current_list is not None:
+        current_list.append(current_list_item)
+
     return result
 
 def simple_yaml_dump(data: dict) -> str:
     lines = []
     for k, v in data.items():
         if isinstance(v, list):
-            items_str = ", ".join(f'"{x}"' if isinstance(x, str) else str(x) for x in v)
-            lines.append(f"{k}: [{items_str}]")
+            # Check if it's a list of dicts (e.g. links field)
+            if v and isinstance(v[0], dict):
+                lines.append(f"{k}:")
+                for item in v:
+                    first = True
+                    for sk, sv in item.items():
+                        if first:
+                            lines.append(f"  - {sk}: {sv}")
+                            first = False
+                        else:
+                            lines.append(f"    {sk}: {sv}")
+            else:
+                items_str = ", ".join(f'"{x}"' if isinstance(x, str) else str(x) for x in v)
+                lines.append(f"{k}: [{items_str}]")
         elif isinstance(v, dict):
             lines.append(f"{k}:")
             for sub_k, sub_v in v.items():
